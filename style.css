@@ -1,0 +1,125 @@
+/* Fnots css */
+@font-face {
+  font-family: "Garet";
+  src: url("fonts/Garet-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garet";
+  src: 
+    url("fonts/Garet-Heavy.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Garet", sans-serif;
+}
+
+
+
+.first-block {
+  background-color: lightgray;
+  height: 600px;
+  width: full;
+  position: relative;
+}
+
+.partision {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.left-side {
+    flex-basis: 40%;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 550px;
+    overflow: hidden;
+    border-radius:0 0 70px 0;
+    z-index: 1;
+  }
+  
+  .left-side img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - -25px) 90%, 0 60%);
+    transform: scale(1.5);
+    object-position: -110px -100px;
+    border-radius: 1px;
+  }
+
+  
+  
+  
+  
+  
+  
+
+.brown-block {
+  background: #deb00d;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 360px;
+}
+
+.light-brown-block {
+  background-color: #deb00d;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  border-radius: 15px 0 0 0;
+  opacity: 0.5;
+}
+
+
+.right-side {
+  flex-basis: 55%;
+}
+
+#fyre-logo {
+  height: 100px;
+  width: 220px;
+  margin-top: 30px;
+}
+#description {
+  margin-top: 3px;
+  font-size: 23px;
+}
+
+#about-us {
+  position: absolute;
+  top: 68%;
+  right: 37%;
+  font-weight: bold;
+  z-index: 1;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+#about {
+  font-size: 80px;
+  font-weight: bold;
+  color: #dfb10e;
+}
+#us {
+  font-size: 72px;
+  font-weight: bold;
+  color: #545454;
+}
