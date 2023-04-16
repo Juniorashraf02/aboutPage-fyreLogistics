@@ -130,8 +130,8 @@ body {
 #three-image-section {
   display: flex;
   justify-content: space-around;
-gap: 60px;
-padding:0  50px;
+  gap: 60px;
+  padding: 0 50px;
 }
 .info-image {
   margin: 50px 0 0 0;
@@ -139,30 +139,116 @@ padding:0  50px;
   width: 100px;
   border-radius: 50%;
 }
-.info-image-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.info-image-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.truck-image-section{
-    z-index: 1;
-}
-
-h3{
-    margin: 10px 0;
-    font-size: normal;
-    font-size: 22px;
+.truck-image-section {
+  z-index: 1;
 }
 
-.text-brown{
-    color: #dfb10e
-}
-.text-gray{
-    color: #545454
-}
-.text-center{
-    text-align: center;
+h3 {
+  margin: 10px 0;
+  font-size: normal;
+  font-size: 22px;
 }
 
+.text-brown {
+  color: #dfb10e;
+}
+.text-gray {
+  color: #545454;
+}
+.text-center {
+  text-align: center;
+}
 
+/* Third section */
+#third-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  position: relative;
+
+}
+
+#third-section img {
+  height: 1200px;
+  width: 700px;
+  z-index: 10;
+
+}
+
+#first-title-div {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  position: absolute;
+  left: 70px;
+  line-height: 50px;
+}
+.first-description {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  margin-top: 20px;
+  width: 600px;
+}
+
+#second-title-div {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  position: absolute;
+  left: 70px;
+  line-height: 50px;
+  top: 320px;
+}
+
+.second-description {
+  position: absolute;
+  top: 450px;
+  left: 80px;
+  width: 35%;
+}
+.third-description {
+  position: absolute;
+  top: 700px;
+  left: 160px;
+  width: 41%;
+}
+#third-title{
+  background-color: #535353;
+  position: absolute;
+  bottom: 100px;
+  right: 400px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  border-radius: 20px 0 0 20px;
+  padding: 10px 200px 10px 10px;
+  z-index: -10;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+#gray-div{
+  background-color: #535353;
+  height: 310px;
+  width: 410px;
+  position: absolute;
+  top: 350px;
+  opacity: 0.3;
+}
+
+#left-light-brown-div{
+  background-color: #deb00d;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  height: 320px;
+  width: 150px;
+  border-radius: 0 40px 0 0;
+}
