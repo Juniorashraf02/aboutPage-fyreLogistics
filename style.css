@@ -13,7 +13,7 @@
   font-style: normal;
 }
 
-/* Global CSS */
+/* ********************************Global CSS *********************************/
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +23,9 @@ body {
   font-family: "Garet", sans-serif;
 }
 
+
+
+/* *************************** first section ******************************* */
 .first-block {
   background-color: lightgray;
   height: 600px;
@@ -114,7 +117,7 @@ body {
   color: #545454;
 }
 
-/* second part */
+/******************************** second part ******************************* */
 
 #second-block {
   position: relative;
@@ -127,6 +130,12 @@ body {
   top: -120px;
   z-index: 0;
 }
+
+#mobile-version-side-image{
+  display: none;
+}
+
+
 #three-image-section {
   display: flex;
   justify-content: space-around;
@@ -165,7 +174,7 @@ h3 {
   text-align: center;
 }
 
-/* Third section */
+/********************************** Third section **********************************/
 #third-section {
   display: flex;
   justify-content: space-between;
@@ -333,9 +342,27 @@ h3 {
 }
 /* <!-- sixth section ends --> */
 
-/* responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************** responsive ****************************/
 @media only screen and (min-width: 300px) and (max-width: 768px) {
-  /* first section starts */
+
+
+
+
+  /**************************** first section starts ****************************/
   .first-block {
     background-color: transparent;
     height: 600px;
@@ -451,11 +478,80 @@ h3 {
     font-weight: bold;
     color: #dfb10e;
   }
-  /* first section ends */
+  /**************************** first section ends ****************************/
 
   #second-block {
-    display: none;
+    position: relative;
   }
+
+  #three-image-section {
+    display: block;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 0 30px;
+
+  }
+
+  .info-image-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-image {
+    margin: 20px 0 0 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+
+  h3 {
+    margin: 10px 0;
+    font-size: normal;
+    font-size: 20px;
+  }
+
+
+  #pc-version-side-image{
+    display: none;
+    
+  }
+  #mobile-version-side-image{
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+  }
+
+  #cube-image{
+    z-index: 1;
+  }
+ 
+
+  
+  .truck-image-section {
+    z-index: 0;
+  }
+  
+ 
+  
+  .text-brown {
+    color: #dfb10e;
+  }
+  .text-gray {
+    color: #545454;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+
+
+
+
+
+  /* ***********************************third setion starts**************** */
   #third-section {
     display: none;
   }
