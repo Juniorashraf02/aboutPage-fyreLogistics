@@ -292,6 +292,51 @@ h3 {
 
 
 /* <!-- sixth section starts --> */
+#sixth-section{
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 0 100px 0 0;
+}
+#eye-image-div {
+  flex-basis: 30%;
+}
+#eye-image-div img{
+  height: 400px;
+  width: 500px;
+}
+#info-image-div{
+  flex-basis: 30%;
+}
+#info-image-div img{
+  height: 200px;
+  width: 500px;
+}
+#left-side-brown-div{
+  background-color: #deb00d;
+  height: 40px;
+  width: 550px;
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
+#right-side-gray-div{
+  background-color: #535353;
+  height: 400px;
+  width: 120px;
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+#right-side-brown-div{
+  background-color: #deb00d;
+  height: 280px;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
 /* <!-- sixth section ends --> */
 
 
