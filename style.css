@@ -41,7 +41,7 @@ body {
   flex-basis: 40%;
   display: inline-block;
   position: relative;
-  width: 40%;
+  /* width: 40%; */
   height: 550px;
   overflow: hidden;
   border-radius: 0 0 70px 0;
@@ -171,14 +171,12 @@ h3 {
   justify-content: space-between;
   margin-top: 90px;
   position: relative;
-
 }
 
 #third-section img {
   height: 1200px;
   width: 700px;
   z-index: 10;
-
 }
 
 #first-title-div {
@@ -219,7 +217,7 @@ h3 {
   left: 160px;
   width: 41%;
 }
-#third-title{
+#third-title {
   background-color: #535353;
   position: absolute;
   bottom: 100px;
@@ -233,7 +231,7 @@ h3 {
   line-height: 40px;
   letter-spacing: 2px;
 }
-#gray-div{
+#gray-div {
   background-color: #535353;
   height: 310px;
   width: 410px;
@@ -242,7 +240,7 @@ h3 {
   opacity: 0.3;
 }
 
-#left-light-brown-div{
+#left-light-brown-div {
   background-color: #deb00d;
   opacity: 0.3;
   position: absolute;
@@ -253,35 +251,33 @@ h3 {
   border-radius: 0 40px 0 0;
 }
 
-
-
 /* <!-- Fourth section starts --> */
-#fourth-sectio{
+#fourth-sectio {
   width: 500px;
   height: 500px;
 }
-#fourth-section img{
+#fourth-section img {
   height: 100%;
   width: 100%;
 }
 /* <!-- Fourth section ends --> */
 
 /* <!-- Fifth section starts --> */
-#fifth-section{
+#fifth-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 55px;
   margin-top: 20px;
 }
-#mission-image{
+#mission-image {
   flex-basis: 40%;
 }
-#mission-image img{
-  height: 550px ;
+#mission-image img {
+  height: 550px;
   width: 600px;
 }
-#fifth-section-title{
+#fifth-section-title {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 600;
@@ -289,11 +285,9 @@ h3 {
 }
 /* <!-- Fifth section ends --> */
 
-
-
 /* <!-- sixth section starts --> */
-#sixth-section{
-  display: flex; 
+#sixth-section {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
@@ -302,18 +296,18 @@ h3 {
 #eye-image-div {
   flex-basis: 30%;
 }
-#eye-image-div img{
+#eye-image-div img {
   height: 400px;
   width: 500px;
 }
-#info-image-div{
+#info-image-div {
   flex-basis: 30%;
 }
-#info-image-div img{
+#info-image-div img {
   height: 200px;
   width: 500px;
 }
-#left-side-brown-div{
+#left-side-brown-div {
   background-color: #deb00d;
   height: 40px;
   width: 550px;
@@ -321,7 +315,7 @@ h3 {
   left: 0;
   top: -40px;
 }
-#right-side-gray-div{
+#right-side-gray-div {
   background-color: #535353;
   height: 400px;
   width: 120px;
@@ -329,7 +323,7 @@ h3 {
   right: 0;
   top: -50px;
 }
-#right-side-brown-div{
+#right-side-brown-div {
   background-color: #deb00d;
   height: 280px;
   width: 40px;
@@ -339,6 +333,139 @@ h3 {
 }
 /* <!-- sixth section ends --> */
 
+/* responsive */
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  /* first section starts */
+  .first-block {
+    background-color: transparent;
+    height: 600px;
+    /* width: full; */
+    position: relative;
+    z-index: 1;
+  }
 
+  .partision {
+    display: block;
+  }
 
+  .left-side {
+    /* flex-basis: 40%; */
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 0 0 90px 0;
+    z-index: 1;
+  }
 
+  .left-side img {
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - -15px) 89%, 0 60%);
+    transform: scale(1.4);
+    object-position: -170px -100px;
+    border-radius: 20px;
+    z-index: 0;
+  }
+
+  .brown-block {
+    /* display: none; */
+    background: #deb00d;
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    top: 360px;
+    left: 40px;
+    z-index: 0;
+  }
+
+  #light-brown-block {
+    /* display: none; */
+    background-color: #deb00d;
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    border-radius: 35px 0 0 0;
+    opacity: 0.4;
+    z-index: 0;
+    overflow: hidden;
+  }
+  #low-opacity-screen {
+    background-color: #535353;
+    height: 520px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 40;
+    opacity: 0.4;
+    border-radius: 10px;
+  }
+
+  .right-side {
+    /* flex-basis: 55%; */
+    /* display: none; */
+  }
+  #fyre-logo {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 160px;
+    left: 40px;
+  }
+  #description {
+    /* display: none; */
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    z-index: 50;
+    color: white;
+    margin-top: 3px;
+    font-size: 18px;
+  }
+
+  #about-us {
+    /* display: none; */
+
+    position: absolute;
+    top: 67%;
+    left: 40px;
+    font-weight: bold;
+    z-index: 50;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #about {
+    font-size: 70px;
+    font-weight: bold;
+    color: #dfb10e;
+  }
+  #us {
+    font-size: 68px;
+    font-weight: bold;
+    color: #dfb10e;
+  }
+  /* first section ends */
+
+  #second-block {
+    display: none;
+  }
+  #third-section {
+    display: none;
+  }
+  #fourth-section {
+    display: none;
+  }
+  #fifth-section {
+    display: none;
+  }
+  #sixth-section {
+    display: none;
+  }
+}
