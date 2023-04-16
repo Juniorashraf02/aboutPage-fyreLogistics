@@ -265,3 +265,35 @@ h3 {
   width: 100%;
 }
 /* <!-- Fourth section ends --> */
+
+/* <!-- Fifth section starts --> */
+#fifth-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 55px;
+  margin-top: 20px;
+}
+#mission-image{
+  flex-basis: 40%;
+}
+#mission-image img{
+  height: 550px ;
+  width: 600px;
+}
+#fifth-section-title{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/* <!-- Fifth section ends --> */
+
+
+
+/* <!-- sixth section starts --> */
+/* <!-- sixth section ends --> */
+
+
+
+
