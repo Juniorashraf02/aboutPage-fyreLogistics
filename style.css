@@ -284,6 +284,9 @@ h3 {
   height: 100%;
   width: 100%;
 }
+#fourth-section-image-mobile{
+  display: none;
+}
 /* <!-- Fourth section ends --> */
 
 /* <!-- Fifth section starts --> */
@@ -673,7 +676,7 @@ h3 {
     width: 400%;
     background-color: #deb00d;
   } */
-  
+
   #third-section #goal-description-mobile {
     height: 200px;
     width: 400px;
@@ -695,7 +698,7 @@ h3 {
 
   }
 
-  /* ***********************************third setion ends  **************** */
+  /* *********************************** third setion ends  **************** */
 
 
 
@@ -703,15 +706,24 @@ h3 {
 
 
 
+  /* *********************************** fourth setion starts  **************** */
 
 
 
-
-
-
-  #fourth-section {
+  #fourth-section #fourth-section-desktop{
     display: none;
   }
+ 
+   #fourth-section-image-mobile{
+    display: block;
+    width: 100%;
+  }
+
+  /* *********************************** fourth setion ends  **************** */
+
+
+
+
   #fifth-section {
     display: none;
   }
