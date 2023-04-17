@@ -320,6 +320,10 @@ h3 {
   position: relative;
   padding: 0 100px 0 0;
 }
+
+#sixth-section #mobile-bg-4{
+  display: none;
+}
 #eye-image-div {
   flex-basis: 30%;
 }
@@ -358,10 +362,31 @@ h3 {
   right: 0;
   bottom: 0px;
 }
+
+#mobile-bg-5{
+  display: none;
+}
 /* <!-- sixth section ends --> */
 
-/**************************** responsive ****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************** responsive ****************************/
 @media only screen and (min-width: 300px) and (max-width: 768px) {
+
+
+
+
+
   /**************************** first section starts ****************************/
   .first-block {
     background-color: transparent;
@@ -428,7 +453,7 @@ h3 {
     top: 0;
     z-index: 40;
     opacity: 0.4;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
   }
 
   .right-side {
@@ -708,7 +733,49 @@ h3 {
 
   /* *********************************** fifth setion ends  **************** */
 
+  /* <!-- sixth section starts --> */
   #sixth-section {
+    display: block;
+    
+    position: relative;
+    padding: 0 0 0 0;
+  }
+  #sixth-section #mobile-bg-4{
+    display: block;
+    margin-top: 420px;
+    width: 100%;
+    /* transform: scale(1.5);
+  object-position: 20px 0; */
+
+  }
+  #eye-image-div {
     display: none;
+  }
+  #eye-image-div img {
+    height: 400px;
+    width: 500px;
+  }
+  #info-image-div {
+    flex-basis: 100%;
+  }
+  #info-image-div img {
+    display: none;
+    /* height: 200px;
+    width: 300px; */
+  }
+  #left-side-brown-div {
+    display: none;
+  }
+  #right-side-gray-div {
+    display: none;
+  }
+  #right-side-brown-div {
+    display: none;
+  }
+  #mobile-bg-5{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 }
